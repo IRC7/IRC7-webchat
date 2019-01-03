@@ -1,0 +1,25 @@
+ <!DOCTYPE html>
+<html>
+	<head>  
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="scripts/anchorme.min.js"></script>
+		<script src="scripts/md5.min.js"></script>
+		<script src="scripts/primus-ircjs.bundle.js"></script>
+		<script src="scripts/chat.js"></script>
+	</head>
+	<body>
+		<script>
+			document.addEventListener("DOMContentLoaded", 
+				() => {  
+					//CreateChannel("%#the\blobby", "GE", "welcome to my channel, and enjoy");
+					RenderChat("irc.irc7.com",
+							   6697,
+							   ">testuser",
+							   "%#The\\bLobby", 
+							   "IRC7 Web Chat");
+							   //null,null,null);
+				});
+		</script>
+	</body>
+</html>
+        		

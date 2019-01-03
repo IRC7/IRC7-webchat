@@ -1,0 +1,226 @@
+html {
+	height: 100%;
+	font-family: MS UI Gothic, Segoe UI Emoji;
+}
+
+body {
+	height: 90%;
+}
+
+.chatApp {
+    height: 100%;
+}
+
+.chatControl {
+	height: 100%;
+	min-height: 500px;
+	padding: 10px;
+}
+
+.chatBody {
+    height: 100%;
+    min-width: 640px;
+    min-height: 500px;
+    border: 1px solid #ccccdd;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    background-image: linear-gradient(-45deg, #eeeeff 25%, transparent 25%, transparent 50%, #eeeeff 50%, #eeeeff 75%, transparent 75%, transparent);
+    background-size: 4px 4px;
+}
+
+.chatPane {
+    height: 100%;
+    min-height: 500px;
+    width: calc(100% - 260px);
+    float: left;
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.infoPane {
+    height: 50px;
+    width: 250px;
+    min-height: 500px;
+    display: inline-block;
+}
+
+.chatHeader {
+	height: 25px;
+	text-align: left;
+}
+
+.channel {
+	background: white;
+	border-radius: 25px 0px 0px 0px;
+	height: calc(100% - 80px);
+	width: 100%;
+	overflow-y: scroll;
+	word-break: break-all;
+	outline: none;
+    border-color: #9ecaed;
+    box-shadow: 2px 2px 10px #9ecaed;
+	padding-bottom: 10px;
+}
+
+.comment {
+	margin: 5px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	padding: 3px;
+	padding-right: 10px;
+	padding-top: 0px;
+	min-height: 10px;
+	background: white;
+	border-radius: 10px 10px 10px 10px;
+		
+	display: inline-block;
+	clear: both;
+	float: left;
+}
+.messenger {
+	font-size: 12pt;
+	display: inline-block;
+}
+.channelNicknameStatus {
+	height: 16px;
+	text-indent: 20px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.butterfly {
+	background: url('../../images/butterfly.bmp') no-repeat;
+}
+.goldHammer {
+    background: url('../../images/gold.bmp') no-repeat;
+}
+.brownHammer {
+    background: url('../../images/brown.bmp') no-repeat;
+}
+.participant {
+    background: url('../../images/normal.bmp') no-repeat
+}
+.message {
+	display: inline-block;
+	text-indent: 20px;
+}
+.gold { border: 1px solid #F2F5A9; }
+.brown { border: 1px solid #F5D0A9; }
+.blue { border: none; } /* border: 1px solid #81F7F3; */
+.purple { border: 1px solid purple; }
+
+.inputBox {
+	border: 1px;
+	border-right: 0px;
+	width: calc(100% - 122px);
+	height: 40px;
+	text-indent: 20px;
+	font-size: 16pt;
+	border-radius: 0px 0px 0px 10px;
+	position: relative;
+	top: 3px;
+}
+.actionButton {
+	border: 0px;
+	border-top: 1px solid #EEEEEE;
+	float: right;
+	height: 43px;
+	width: 20px;
+	background: #FFEEEE;
+	outline: none;
+	font-size: 16pt;
+	font-weight: bold;
+	color: red;
+	position: relative;
+	top: 3px;
+	border: 1px solid gray;
+	border-right: none;
+}
+.actionButton:active {
+	background: red;
+	color: white;
+}
+.submitButton {
+	border: 0px;
+	border-top: 1px solid #EEEEEE;
+	float: right;
+	height: 43px;
+	width: 100px;
+	background: #FFFFEE;
+	outline: none;
+	font-size: 16pt;
+	border-radius: 0px 0px 10px 0px;
+	position: relative;
+	top: 3px;
+	border: 1px solid gray;
+}
+
+.submitButton:active {
+	background: #dddddd;	
+}
+.inputBox:focus {
+	outline: none;
+}
+
+.userInfo {
+	height: 100px;
+	background: white;
+	border-radius: 0px 25px 0px 0px;
+	font-size: 9pt;
+	overflow: hidden;
+}
+
+.nickList {
+	height: calc(100% - 100px - 50px);
+	background: white;
+	border-radius: 0px 0px 0px 25px;
+	margin-top: 10px;
+	overflow-y: scroll;
+}
+.nickList ul {
+	margin: 0px;
+	padding: 0px;
+}
+.nickList ul li {
+		margin-top: 0px;
+		margin-left: 30px;
+		cursor: pointer; 
+		cursor: hand;
+}
+.nickListButterfly {
+	list-style-image: url('../../images/butterfly.bmp');
+}
+.nickListGoldHammer {
+    list-style-image: url('../../images/gold.bmp');
+}
+.nickListBrownHammer {
+    list-style-image: url('../../images/brown.bmp');
+}
+.nickListParticipant {
+    list-style-image: url('../../images/normal.bmp');
+}
+.nickListSelectable:hover {
+	background: #ddddFF;
+}
+.nickListSelected {
+	background: #ddddFF;
+}
+.kick {
+	font-weight: bold;
+	color: red;
+}
+.chatEvent {
+	color: gray;
+}
+.action {
+	font-style: italic;
+	color: purple;
+}
+.whisper {
+	color: purple;
+}
+.quit { 
+	color: navy;
+}
