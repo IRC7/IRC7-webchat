@@ -1,0 +1,122 @@
+* { }
+body {
+
+}
+ul { }
+li { }
+div { }
+div#NicklistContainer { 
+background-color: gray;
+min-width: 300px;
+max-width: 300px;
+min-height: 700px;
+left: -55px;
+position: relative;
+}
+div.line { }
+div.status { float: left; margin-left: 1px; margin-right: 3px;  }
+div.test { 
+	/*! display: block; */
+	/*! z-index: 1; */
+}
+[id] { }
+ul#Menu { background-color: white; max-height: 300px; overflow-y: auto; overflow-x: hidden; min-height: 300px;}
+li.List {
+	list-style-type: none;
+}
+img {
+	
+}
+img#nopic { 
+ /*! visibility: hidden; */
+ /*! left: -15px; */
+}
+img#owner {
+}
+img#host {
+}
+img#maleWpic {
+}
+img#maleNpic {
+}
+img#femaleWpic {
+}
+img#femaleNpic {
+}
+img#spec {
+}
+img#unknown {
+}
+img#isAway {
+}
+img#status {
+}
+.status45 { position: relative;top: 0px;left: 8px;}
+.ProfileImage { position: absolute;left: -140px;/*! z-index: -1; */display: block;}
+[class] { }
+img#lolx { 
+}
+img.nopicx { }
+div#lolk { display: block;width: 300px;height: 300px;background: url("../images/status45.svg");}
+div.nickbox {
+
+	position: relative;
+	z-index: 2;
+	background-color: white;
+	left: 16px;
+	padding-left: 2px;
+}
+
+#owner {
+	left: -16px;
+}
+#IRCOP {
+ left: 0px;
+}
+#host {
+	left: -32px;
+}
+#spectator {
+	 left: -48px;
+}
+#ignored {
+	 left: -64px;
+}
+#isAway {
+	 left: -80px;
+}
+#ischecked {
+	 left: -98px;
+}
+#nogender { 
+left: -112px;
+}
+#nogenderwPic {
+	left: -128px;
+}
+#male {
+	left: -144px;
+}
+#malewPic {
+	left: -161px;
+}
+#female {
+	left: -176px;
+}
+#femaleWpic {
+	left: -193px;
+}
+#HideUnusedIcons { 
+	min-height: 300px;
+	/*! max-height: 300px; */
+	position: absolute;
+	/*! top: 0px; */
+	left: 0px;
+	width: 49px;
+	z-index: 1;
+	background-color: #fff7f7;
+}
+.NicklistAnchorLeft { }
+.ProfileImage {
+	left: 17px;
+}
