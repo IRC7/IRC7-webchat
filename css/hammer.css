@@ -1,0 +1,122 @@
+body {
+ background-color: black;
+ 
+ }
+* { }
+div { }
+#svgclass { 
+ 
+} 
+path{
+  
+}
+svg { }
+.svgclass:hover {
+	
+}
+svg#svgclass { 
+/*! position: absolute; */
+/*! left: 50%; */
+
+/*! width: 800px; */
+/*! height: 800px; */
+/*! bottom: 0px; */
+position: relative;
+top: 0px;
+left: 0px;
+width: auto;
+height: auto;
+} 
+.textlayout {
+	background-color: black;
+	fill: red;
+	
+}
+.AllPoints { 
+}
+div#WRAP {
+	/*! position: absolute; */
+	/*! top: 0px; */
+    /*! left:0px; */
+	/*! height: 100%; */
+	width: 700px;
+	height: 700px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+#girl_1_hair:hover {
+	fill: blue;
+
+}
+#girl_1_face:hover {
+	 fill: white;
+}
+#girl_2_face:hover {
+	 fill: blue;
+}
+#girl_2_hair:hover {
+	 fill: white;
+}
+
+#profimgA002 { }
+#profimgA003 { }
+#profimgA004 { }
+#profimgA005 { }
+path:hover{
+  fill: red;
+}
+#girl_2_faces:hover {
+	fill: white;
+}
+#templateBG:hover{
+	fill:white;
+}
+path {
+ 
+}
+
+#templateBG {
+fill: white;
+}
+
+
+.grnrngrNDS {
+
+}
+
+#grnrngrND1 { }
+#grnrngrND2 { }
+#grnrngrND3 { }
+#grnrngrND4 { }
+#grnrngrND5 { }
+#grnrngrND6 { }
+#grnrngrND7 { }
+#grnrngrND8 { }
+#grnrngrND9 { }
+#grnrngrND1:hover{  
+fill: blue;
+}
+path:hover{ 
+ fill: yellow !important;
+}
+#grnrngrND3:hover{  
+fill: blue;
+}
+#grnrngrND4:hover{
+fill: blue;	
+}
+#grnrngrND5:hover{  
+}
+#grnrngrND6:hover{ 
+fill: blue; 
+}
+#grnrngrND7:hover{ 
+fill: blue; 
+}
+#grnrngrND8:hover{  
+fill: blue;
+}
+#grnrngrND9:hover{  
+ fill: blue;
+}
